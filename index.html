@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Cooking Platform</h1>
+            <nav>
+                <a href="#recipes">Featured Recipes</a>
+                <a href="#search">Recipe Finder</a>
+                <a href="#contact">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Discover the Joy of Cooking</h2>
+            <p>Explore new recipes, learn cooking tips, and enjoy a delightful culinary experience!</p>
+        </div>
+    </section>
+
+    <section id="recipes" class="recipes-section">
+        <div class="container">
+            <h2>Featured Recipes</h2>
+            <div class="recipes">
+                <div class="recipe-card">
+                    <img src="Images/1st image.jpg" alt="Spaghetti Carbonara">
+                    <h3>Spaghetti Carbonara</h3>
+                    <p>A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.</p>
+                </div>
+                <div class="recipe-card">
+                    <img src="Images/2 image.jpg" alt="Vegetable Stir-Fry">
+                    <h3>Vegetable Stir-Fry</h3>
+                    <p>A healthy and colorful mix of vegetables sautéed in a savory sauce.</p>
+                </div>
+                <div class="recipe-card">
+                    <img src="Images/3 rd.jpg" alt="Chocolate Cake">
+                    <h3>Chocolate Cake</h3>
+                    <p>A rich and moist chocolate cake topped with creamy chocolate frosting.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="search" class="search-section">
+        <div class="container">
+            <h2>Recipe Finder</h2>
+            <input type="text" id="ingredient" placeholder="Enter an ingredient (e.g., chicken, rice)">
+            <button id="searchButton">Search Recipes</button>
+            <div id="searchResults"></div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <p>&copy; 2024 Cooking Platform. All Rights Reserved.</p>
+            <p>Contact us: cookingplatform@example.com</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
